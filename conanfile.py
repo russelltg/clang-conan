@@ -140,7 +140,7 @@ class ClangConan(ConanFile):
                          " -DCLANG_TOOL_CLANG_FORMAT_BUILD=OFF"
                          " -DCLANG_TOOL_CLANG_FUZZER_BUILD=OFF"
                          " -DCLANG_TOOL_DIAGTOOL_BUILD=OFF"
-                         " -DCLANG_TOOL_DRIVER_BUILD=OFF"
+                         " -DCLANG_TOOL_DRIVER_BUILD=ON"
                          " -DCLANG_TOOL_DIAGTOOL_BUILD=OFF"
                          " -DCLANG_TOOL_CLANG_FUZZER_BUILD=OFF"
                          "" % (os.path.join(self.conanfile_directory,
